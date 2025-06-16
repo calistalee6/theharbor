@@ -2,115 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>About Us | CarbonTide-News.org</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - TrendSnack</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <div class="logo-icon">
-                    <svg viewBox="0 0 40 40" class="logo-svg">
-                        <defs>
-                            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#00ff94"/>
-                                <stop offset="100%" style="stop-color:#0ea5e9"/>
-                            </linearGradient>
-                        </defs>
-                        <path d="M8 32 L15 20 L22 28 L32 8" stroke="url(#logoGradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
-                        <circle cx="32" cy="8" r="3" fill="url(#logoGradient)"/>
-                        <circle cx="15" cy="20" r="2" fill="url(#logoGradient)" opacity="0.7"/>
-                        <circle cx="22" cy="28" r="2" fill="url(#logoGradient)" opacity="0.7"/>
-                        <path d="M5 35 Q20 30 35 35" stroke="url(#logoGradient)" stroke-width="2" fill="none" opacity="0.5"/>
-                    </svg>
-                </div>
-                <span class="logo-text">CarbonTide</span>
+            <div class="logo">
+                <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ff6b9d"/>
+                            <stop offset="50%" style="stop-color:#a855f7"/>
+                            <stop offset="100%" style="stop-color:#3b82f6"/>
+                        </linearGradient>
+                    </defs>
+                    <rect x="5" y="8" width="14" height="14" rx="3" fill="url(#logoGradient)" transform="rotate(45 12 15)"/>
+                    <rect x="15" y="18" width="10" height="10" rx="2" fill="url(#logoGradient)" transform="rotate(15 20 23)"/>
+                    <rect x="25" y="12" width="8" height="8" rx="2" fill="url(#logoGradient)" transform="rotate(-30 29 16)"/>
+                    <text x="38" y="18" font-family="Space Grotesk" font-weight="700" font-size="16" fill="url(#logoGradient)">TrendSnack</text>
+                    <text x="38" y="30" font-family="Outfit" font-weight="400" font-size="8" fill="#64748b">pop culture digest</text>
+                </svg>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
-                <li class="nav-item"><a href="product.html" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="stories.html" class="nav-link">Stories</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="who-we-are.html" class="nav-link">Who We Are</a>
+                <button class="subscribe-btn">Subscribe</button>
             </div>
         </div>
     </nav>
 
-    <header class="page-hero">
+    <!-- About Hero -->
+    <section class="about-hero">
         <div class="container">
-            <div class="page-hero-content">
-                <h1 class="page-title slide-in-left">About CarbonTide</h1>
-                <p class="page-subtitle slide-in-left delay-1">
-                    Investigative journalism at the intersection of climate policy and corporate accountability
-                </p>
+            <div class="hero-content">
+                <h1>About TrendSnack</h1>
+                <p class="hero-tagline">Bite-size pop-culture you can brag about at brunch</p>
+                <p class="hero-description">We compress meme cycles, music drops, and celebrity collabs into daily two-minute digests that keep 4 million readers ahead of the culture curve.</p>
             </div>
         </div>
-    </header>
+    </section>
 
-    <section class="founding-story">
+    <!-- Mission Section -->
+    <section class="mission-section">
         <div class="container">
-            <div class="story-grid">
-                <div class="story-content">
-                    <h2 class="section-title">Our Founding Story</h2>
-                    <div class="story-text">
-                        <p class="story-paragraph">
-                            CarbonTide was born from frustration. After months of covering climate policy for Reuters, 
-                            our founders Maya Trinh and Gabriel Ojo witnessed a troubling pattern: PR spin consistently 
-                            outpaced rigorous data audits in the rapidly expanding carbon offset market.
-                        </p>
-                        <p class="story-paragraph">
-                            In late 2022, while investigating Shell's mangrove restoration project in Indonesia, 
-                            they uncovered what would become our flagship investigation—42% of claimed carbon storage 
-                            never materialized. The story was buried by legal teams, but the evidence was undeniable.
-                        </p>
-                        <p class="story-paragraph">
-                            "We realized the climate journalism space needed a publication willing to dig deep, 
-                            follow the money, and hold both corporations and governments accountable for their 
-                            'green' claims," recalls Maya. "That's when we decided to launch CarbonTide."
-                        </p>
+            <div class="mission-content">
+                <h2>Our Mission</h2>
+                <p class="mission-statement">TrendSnack exists to democratize pop culture intelligence. In a world where viral moments happen faster than ever, we believe everyone deserves to be culturally fluent—not just the chronically online.</p>
+                
+                <div class="mission-values">
+                    <div class="value-card">
+                        <div class="value-icon">⚡</div>
+                        <h3>Speed Meets Depth</h3>
+                        <p>We don't just report what's trending—we explain why it matters and where it's going next.</p>
                     </div>
-                    <div class="story-stats">
-                        <div class="story-stat">
-                            <span class="stat-number">2023</span>
-                            <span class="stat-label">Founded</span>
-                        </div>
-                        <div class="story-stat">
-                            <span class="stat-number">$30M</span>
-                            <span class="stat-label">Current Valuation</span>
-                        </div>
-                        <div class="story-stat">
-                            <span class="stat-number">500K+</span>
-                            <span class="stat-label">Monthly Readers</span>
-                        </div>
+                    <div class="value-card">
+                        <div class="value-icon">🎯</div>
+                        <h3>Quality Over Quantity</h3>
+                        <p>Every story is carefully curated and fact-checked. No clickbait, no fluff, just pure cultural intelligence.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🌍</div>
+                        <h3>Inclusive Perspective</h3>
+                        <p>Pop culture is global and diverse. Our coverage reflects the full spectrum of contemporary culture.</p>
                     </div>
                 </div>
-                <div class="story-visual">
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-date">2022</div>
-                            <div class="timeline-content">
-                                <h4>The Revelation</h4>
-                                <p>Shell investigation reveals widespread offset failures</p>
-                            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder-section">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-info">
+                    <div class="founder-photo">
+                        <div class="photo-placeholder">
+                            <div class="avatar-icon">LN</div>
                         </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">2023</div>
-                            <div class="timeline-content">
-                                <h4>CarbonTide Launch</h4>
-                                <p>Independent platform for climate accountability journalism</p>
+                    </div>
+                    <div class="founder-details">
+                        <h2>Meet Lex "Lexi" Navarro</h2>
+                        <p class="founder-title">Founder & Chief Culture Officer</p>
+                        <p class="founder-bio">
+                            Lexi spent five years at BuzzFeed mastering the art of the viral listicle before realizing that pop culture deserved more thoughtful coverage. After her article "27 Things Only Late-2010s Kids Will Remember" broke the internet with 47 million views, she knew it was time to build something bigger.
+                        </p>
+                        <p class="founder-vision">
+                            "I wanted to create the publication I wished existed when I was 22 and trying to keep up with culture while working three jobs. TrendSnack is for anyone who wants to be culturally fluent without spending four hours a day on TikTok."
+                        </p>
+                        
+                        <div class="founder-credentials">
+                            <div class="credential">
+                                <h4>Background</h4>
+                                <ul>
+                                    <li>Ex-BuzzFeed Senior Culture Writer (2019-2024)</li>
+                                    <li>UCLA Journalism & Media Studies, 2019</li>
+                                    <li>Forbes 30 Under 30: Media (2024)</li>
+                                </ul>
                             </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-date">2024</div>
-                            <div class="timeline-content">
-                                <h4>Series A Funding</h4>
-                                <p>$30M valuation, expanding global coverage</p>
+                            <div class="credential">
+                                <h4>Recognition</h4>
+                                <ul>
+                                    <li>Webby Award for Cultural Coverage (2023)</li>
+                                    <li>Society of Professional Journalists Award (2024)</li>
+                                    <li>Named "Voice of Gen-Z Culture" by TIME (2024)</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -119,341 +120,302 @@
         </div>
     </section>
 
-    <section class="mission-values">
+    <!-- Company Stats -->
+    <section class="company-stats">
         <div class="container">
-            <h2 class="section-title">Our Mission & Values</h2>
-            <div class="values-grid">
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
-                            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="M12 4v4m0 8v4m8-8h-4m-8 0H4" stroke="currentColor" stroke-width="2"/>
-                        </svg>
+            <h2>TrendSnack by the Numbers</h2>
+            <div class="stats-showcase">
+                <div class="stat-item">
+                    <div class="stat-visual">
+                        <div class="chart-bar" style="height: 85%"></div>
                     </div>
-                    <h3 class="value-title">Evidence-First Reporting</h3>
-                    <p class="value-description">
-                        Every investigation is built on verifiable data, FOIA documents, and on-ground verification. 
-                        We never publish claims without multiple sources and documented evidence.
-                    </p>
+                    <div class="stat-info">
+                        <span class="stat-number">$30M</span>
+                        <span class="stat-label">Company Valuation</span>
+                        <span class="stat-detail">Series A led by Andreessen Horowitz</span>
+                    </div>
                 </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="m12 8-4 4 4 4" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <circle cx="15" cy="12" r="2" fill="currentColor"/>
-                        </svg>
+                
+                <div class="stat-item">
+                    <div class="stat-visual">
+                        <div class="chart-bar" style="height: 92%"></div>
                     </div>
-                    <h3 class="value-title">Corporate Accountability</h3>
-                    <p class="value-description">
-                        We follow the money trail behind "green" claims, exposing the gap between marketing 
-                        narratives and environmental reality in carbon markets.
-                    </p>
+                    <div class="stat-info">
+                        <span class="stat-number">4.2M</span>
+                        <span class="stat-label">Daily Readers</span>
+                        <span class="stat-detail">Across email, web, and social platforms</span>
+                    </div>
                 </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="M8 8h8v8H8z" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.2"/>
-                            <circle cx="9" cy="9" r="1" fill="currentColor"/>
-                            <circle cx="15" cy="9" r="1" fill="currentColor"/>
-                            <circle cx="9" cy="15" r="1" fill="currentColor"/>
-                            <circle cx="15" cy="15" r="1" fill="currentColor"/>
-                        </svg>
+                
+                <div class="stat-item">
+                    <div class="stat-visual">
+                        <div class="chart-bar" style="height: 78%"></div>
                     </div>
-                    <h3 class="value-title">Global Perspective</h3>
-                    <p class="value-description">
-                        Our network of regional correspondents ensures local voices are heard in climate policy 
-                        discussions that affect communities worldwide.
-                    </p>
+                    <div class="stat-info">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-label">Female Audience</span>
+                        <span class="stat-detail">Ages 18-29, college-educated</span>
+                    </div>
                 </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="M7 7h4v4H7z" fill="currentColor" opacity="0.7"/>
-                            <path d="M13 7h4v8h-4z" fill="currentColor" opacity="0.5"/>
-                            <path d="M7 13h4v4H7z" fill="currentColor" opacity="0.3"/>
-                        </svg>
+                
+                <div class="stat-item">
+                    <div class="stat-visual">
+                        <div class="chart-bar" style="height: 95%"></div>
                     </div>
-                    <h3 class="value-title">Data Transparency</h3>
-                    <p class="value-description">
-                        All our investigations include open data sets, methodology documentation, and 
-                        reproducible analysis for maximum transparency.
-                    </p>
+                    <div class="stat-info">
+                        <span class="stat-number">2 Min</span>
+                        <span class="stat-label">Average Read Time</span>
+                        <span class="stat-detail">Perfect for your morning coffee</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Team Section -->
     <section class="team-section">
         <div class="container">
-            <h2 class="section-title">Our Leadership Team</h2>
+            <h2>The TrendSnack Team</h2>
+            <p class="team-intro">Our diverse team of culture experts, data analysts, and content creators work around the clock to bring you the smartest take on what's happening now.</p>
+            
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-photo">
-                        <div class="photo-placeholder">MT</div>
+                        <div class="avatar-placeholder">MC</div>
                     </div>
                     <div class="member-info">
-                        <h3 class="member-name">Maya Trinh</h3>
-                        <p class="member-title">Editor-in-Chief & Co-Founder</p>
-                        <p class="member-bio">
-                            Former Reuters climate correspondent with 8 years covering COP negotiations and 
-                            corporate ESG claims. Maya's FOIA obsession has uncovered $2B in questionable 
-                            offset purchases. Stanford Environmental Journalism Fellow 2019.
-                        </p>
-                        <div class="member-credentials">
-                            <span class="credential">🏆 Polk Award 2022</span>
-                            <span class="credential">📰 Reuters (2018-2023)</span>
-                            <span class="credential">🎓 Stanford Fellow</span>
-                        </div>
+                        <h3>Maya Chen</h3>
+                        <p class="member-role">Senior Culture Writer</p>
+                        <p class="member-bio">Former Pitchfork music critic who specializes in the intersection of technology and pop culture. Maya's coverage of virtual concerts has become essential reading for industry insiders.</p>
                     </div>
                 </div>
                 
                 <div class="team-member">
                     <div class="member-photo">
-                        <div class="photo-placeholder">GO</div>
+                        <div class="avatar-placeholder">JK</div>
                     </div>
                     <div class="member-info">
-                        <h3 class="member-name">Gabriel Ojo</h3>
-                        <p class="member-title">Data Journalist & Co-Founder</p>
-                        <p class="member-bio">
-                            Python wizard and investigative data analyst specializing in carbon market forensics. 
-                            Gabriel built the algorithms that identified Shell's mangrove offset discrepancies. 
-                            Former Bloomberg data team lead.
-                        </p>
-                        <div class="member-credentials">
-                            <span class="credential">🐍 Python Expert</span>
-                            <span class="credential">📊 Bloomberg (2019-2023)</span>
-                            <span class="credential">🔬 MIT Data Science</span>
-                        </div>
+                        <h3>Jordan Kim</h3>
+                        <p class="member-role">Fashion & Lifestyle Editor</p>
+                        <p class="member-bio">Ex-Vogue digital editor with an eye for spotting fashion trends before they hit the mainstream. Jordan's Instagram deep-dives consistently break the internet.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="avatar-placeholder">AR</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Alex Rivera</h3>
+                        <p class="member-role">Business & Data Reporter</p>
+                        <p class="member-bio">Former Wall Street Journal tech reporter who makes complex industry economics accessible. Alex's fan economy coverage is required reading for music industry executives.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div class="avatar-placeholder">SP</div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sam Park</h3>
+                        <p class="member-role">Digital Culture Correspondent</p>
+                        <p class="member-bio">Gaming and internet culture expert who speaks fluent meme. Sam's VTuber coverage brought virtual influencer economics to mainstream media attention.</p>
                     </div>
                 </div>
             </div>
             
-            <div class="regional-team">
-                <h3 class="regional-title">Global Correspondents</h3>
-                <div class="correspondents-grid">
-                    <div class="correspondent">
-                        <div class="correspondent-flag">
-                            <svg viewBox="0 0 24 24" class="region-icon">
-                                <path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7z" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
-                                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="currentColor"/>
-                                <text x="12" y="9" text-anchor="middle" dominant-baseline="central" font-size="6" fill="white">BR</text>
-                            </svg>
-                        </div>
-                        <div class="correspondent-info">
-                            <h4>Brazil & Amazon Basin</h4>
-                            <p>REDD+ projects and deforestation monitoring</p>
-                        </div>
+            <div class="team-values">
+                <h3>What Makes Us Different</h3>
+                <div class="values-grid">
+                    <div class="value-point">
+                        <h4>Data-Driven Insights</h4>
+                        <p>Every story is backed by social media analytics, streaming data, and cultural impact metrics.</p>
                     </div>
-                    <div class="correspondent">
-                        <div class="correspondent-flag">
-                            <svg viewBox="0 0 24 24" class="region-icon">
-                                <path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7z" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
-                                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="currentColor"/>
-                                <text x="12" y="9" text-anchor="middle" dominant-baseline="central" font-size="6" fill="white">NG</text>
-                            </svg>
-                        </div>
-                        <div class="correspondent-info">
-                            <h4>West Africa</h4>
-                            <p>Oil & gas offset programs</p>
-                        </div>
+                    <div class="value-point">
+                        <h4>Insider Access</h4>
+                        <p>Our team has cultivated relationships across music, fashion, tech, and entertainment industries.</p>
                     </div>
-                    <div class="correspondent">
-                        <div class="correspondent-flag">
-                            <svg viewBox="0 0 24 24" class="region-icon">
-                                <path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7z" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
-                                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="currentColor"/>
-                                <text x="12" y="9" text-anchor="middle" dominant-baseline="central" font-size="6" fill="white">ID</text>
-                            </svg>
-                        </div>
-                        <div class="correspondent-info">
-                            <h4>Southeast Asia</h4>
-                            <p>Mangrove restoration & peat bog projects</p>
-                        </div>
+                    <div class="value-point">
+                        <h4>Global Perspective</h4>
+                        <p>We track cultural movements from K-pop to Afrobeats, ensuring comprehensive coverage.</p>
                     </div>
-                    <div class="correspondent">
-                        <div class="correspondent-flag">
-                            <svg viewBox="0 0 24 24" class="region-icon">
-                                <path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7z" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
-                                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="currentColor"/>
-                                <text x="12" y="9" text-anchor="middle" dominant-baseline="central" font-size="6" fill="white">EU</text>
-                            </svg>
-                        </div>
-                        <div class="correspondent-info">
-                            <h4>European Union</h4>
-                            <p>CBAM implementation & ETS monitoring</p>
-                        </div>
+                    <div class="value-point">
+                        <h4>Trend Prediction</h4>
+                        <p>We don't just report on what's hot—we identify what will be hot next month.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="methodology-section">
+    <!-- Revenue Model -->
+    <section class="revenue-section">
         <div class="container">
-            <h2 class="section-title">Our Methodology</h2>
-            <div class="methodology-content">
-                <div class="methodology-grid">
-                    <div class="method-step">
-                        <div class="step-number">01</div>
-                        <div class="step-content">
-                            <h4 class="step-title">Data Collection</h4>
-                            <p class="step-description">
-                                FOIA requests, satellite imagery analysis, and on-site verification form 
-                                the foundation of every investigation.
-                            </p>
-                        </div>
+            <h2>How We're Building the Future</h2>
+            <p class="revenue-intro">TrendSnack's sustainable business model ensures we can deliver quality content without compromising editorial independence.</p>
+            
+            <div class="revenue-breakdown">
+                <div class="revenue-stream">
+                    <div class="stream-percentage">50%</div>
+                    <div class="stream-details">
+                        <h3>Newsletter Advertising</h3>
+                        <p>Premium brand partnerships with companies that align with our audience's values. Every ad is clearly labeled and relevant to pop culture.</p>
                     </div>
-                    <div class="method-step">
-                        <div class="step-number">02</div>
-                        <div class="step-content">
-                            <h4 class="step-title">Technical Analysis</h4>
-                            <p class="step-description">
-                                Our data team applies machine learning algorithms to identify patterns 
-                                and discrepancies in carbon credit registries.
-                            </p>
-                        </div>
+                </div>
+                
+                <div class="revenue-stream">
+                    <div class="stream-percentage">30%</div>
+                    <div class="stream-details">
+                        <h3>Creator Merchandise</h3>
+                        <p>Limited-edition collections designed in collaboration with emerging artists and cultural tastemakers.</p>
                     </div>
-                    <div class="method-step">
-                        <div class="step-number">03</div>
-                        <div class="step-content">
-                            <h4 class="step-title">Source Verification</h4>
-                            <p class="step-description">
-                                Multiple independent sources confirm findings before publication. 
-                                All claims are fact-checked by external experts.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="method-step">
-                        <div class="step-number">04</div>
-                        <div class="step-content">
-                            <h4 class="step-title">Transparent Reporting</h4>
-                            <p class="step-description">
-                                Complete methodology, data sets, and source materials are published 
-                                alongside every investigation for full transparency.
-                            </p>
-                        </div>
+                </div>
+                
+                <div class="revenue-stream">
+                    <div class="stream-percentage">20%</div>
+                    <div class="stream-details">
+                        <h3>Affiliate Partnerships</h3>
+                        <p>Carefully curated recommendations for books, music, fashion, and tech that our audience genuinely loves.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="awards-section">
+    <!-- Contact Section -->
+    <section class="contact-section">
         <div class="container">
-            <h2 class="section-title">Recognition & Awards</h2>
-            <div class="awards-grid">
-                <div class="award-item">
-                    <div class="award-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <polygon points="12,2 15,8 22,8 17,13 19,20 12,16 5,20 7,13 2,8 9,8" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.3"/>
-                            <circle cx="12" cy="12" r="3" fill="currentColor"/>
-                        </svg>
+            <div class="contact-content">
+                <h2>Get in Touch</h2>
+                <p>Have a story tip, partnership opportunity, or just want to say hi? We'd love to hear from you.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <h3>Editorial</h3>
+                        <p>tips@trendsnack.com</p>
+                        <span>Story tips and press releases</span>
                     </div>
-                    <h4 class="award-title">George Polk Award</h4>
-                    <p class="award-description">Environmental Reporting (2022)</p>
-                    <p class="award-detail">Shell Mangrove Investigation</p>
+                    
+                    <div class="contact-method">
+                        <h3>Business</h3>
+                        <p>partnerships@trendsnack.com</p>
+                        <span>Advertising and collaborations</span>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h3>General</h3>
+                        <p>hello@trendsnack.com</p>
+                        <span>Everything else</span>
+                    </div>
                 </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="M3 7h18" stroke="currentColor" stroke-width="2"/>
-                            <path d="M6 10h6m-6 3h8m-8 3h4" stroke="currentColor" stroke-width="1" opacity="0.7"/>
-                        </svg>
+                
+                <div class="social-links">
+                    <h3>Follow Our Journey</h3>
+                    <div class="social-grid">
+                        <a href="#" class="social-link">
+                            <span class="social-icon">📸</span>
+                            <span class="social-name">Instagram</span>
+                            <span class="social-handle">@trendsnack</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">🎵</span>
+                            <span class="social-name">TikTok</span>
+                            <span class="social-handle">@trendsnack</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">🐦</span>
+                            <span class="social-name">Twitter</span>
+                            <span class="social-handle">@trendsnack</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">🎧</span>
+                            <span class="social-name">Podcast</span>
+                            <span class="social-handle">TrendSnack Weekly</span>
+                        </a>
                     </div>
-                    <h4 class="award-title">Society of Environmental Journalists</h4>
-                    <p class="award-description">Outstanding Beat Reporting (2023)</p>
-                    <p class="award-detail">Carbon Credit Market Series</p>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="M8 8h8v8H8z" stroke="currentColor" stroke-width="2" fill="currentColor" opacity="0.2"/>
-                            <circle cx="9" cy="9" r="1" fill="currentColor"/>
-                            <circle cx="15" cy="9" r="1" fill="currentColor"/>
-                            <circle cx="9" cy="15" r="1" fill="currentColor"/>
-                            <circle cx="15" cy="15" r="1" fill="currentColor"/>
-                        </svg>
-                    </div>
-                    <h4 class="award-title">Global Editors Network</h4>
-                    <p class="award-description">Data Journalism Award (2023)</p>
-                    <p class="award-detail">CBAM Impact Tracker</p>
-                </div>
-                <div class="award-item">
-                    <div class="award-icon">
-                        <svg viewBox="0 0 24 24" class="icon-svg">
-                            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <path d="m12 8-4 4 4 4" stroke="currentColor" stroke-width="2" fill="none"/>
-                            <circle cx="15" cy="12" r="2" fill="currentColor"/>
-                        </svg>
-                    </div>
-                    <h4 class="award-title">IRE Award</h4>
-                    <p class="award-description">Computer-Assisted Reporting (2024)</p>
-                    <p class="award-detail">Kenya REDD+ Investigation</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Never miss a cultural moment</h2>
+                <p>Join 4 million readers getting their daily dose of pop culture intelligence delivered every morning at 7 AM ET.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="email-input">
+                    <button type="submit" class="submit-btn">Get Daily Brief</button>
+                </form>
+                <div class="newsletter-features">
+                    <div class="feature">
+                        <span class="feature-check">✓</span>
+                        <span>Daily 2-minute digest</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-check">✓</span>
+                        <span>Breaking culture alerts</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-check">✓</span>
+                        <span>Exclusive merch access</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                                    <div class="footer-logo">
-                    <div class="logo-icon">
-                        <svg viewBox="0 0 40 40" class="logo-svg">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
                             <defs>
-                                <linearGradient id="footerLogoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#00ff94"/>
-                                    <stop offset="100%" style="stop-color:#0ea5e9"/>
+                                <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ff6b9d"/>
+                                    <stop offset="50%" style="stop-color:#a855f7"/>
+                                    <stop offset="100%" style="stop-color:#3b82f6"/>
                                 </linearGradient>
                             </defs>
-                            <path d="M8 32 L15 20 L22 28 L32 8" stroke="url(#footerLogoGradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
-                            <circle cx="32" cy="8" r="3" fill="url(#footerLogoGradient)"/>
-                            <circle cx="15" cy="20" r="2" fill="url(#footerLogoGradient)" opacity="0.7"/>
-                            <circle cx="22" cy="28" r="2" fill="url(#footerLogoGradient)" opacity="0.7"/>
-                            <path d="M5 35 Q20 30 35 35" stroke="url(#footerLogoGradient)" stroke-width="2" fill="none" opacity="0.5"/>
+                            <rect x="5" y="8" width="14" height="14" rx="3" fill="url(#footerGradient)" transform="rotate(45 12 15)"/>
+                            <rect x="15" y="18" width="10" height="10" rx="2" fill="url(#footerGradient)" transform="rotate(15 20 23)"/>
+                            <rect x="25" y="12" width="8" height="8" rx="2" fill="url(#footerGradient)" transform="rotate(-30 29 16)"/>
+                            <text x="38" y="18" font-family="Space Grotesk" font-weight="700" font-size="16" fill="url(#footerGradient)">TrendSnack</text>
+                            <text x="38" y="30" font-family="Outfit" font-weight="400" font-size="8" fill="#64748b">pop culture digest</text>
                         </svg>
                     </div>
-                    <span class="logo-text">CarbonTide</span>
+                    <p>Bite-size pop-culture you can brag about at brunch.</p>
                 </div>
-                    <p class="footer-description">Investigative climate & carbon-credit journalism</p>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title">Content</h4>
-                    <ul class="footer-links">
-                        <li><a href="#investigations">Investigations</a></li>
-                        <li><a href="#data">Data Trackers</a></li>
-                        <li><a href="#policy">Policy Analysis</a></li>
-                        <li><a href="#newsletter">Newsletter</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title">Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="#team">Our Team</a></li>
-                        <li><a href="#methodology">Methodology</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4 class="footer-title">Connect</h4>
-                    <ul class="footer-links">
-                        <li><a href="#twitter">Twitter</a></li>
-                        <li><a href="#linkedin">LinkedIn</a></li>
-                        <li><a href="#rss">RSS Feed</a></li>
-                        <li><a href="#tips">Submit Tips</a></li>
-                    </ul>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Content</h4>
+                        <a href="stories.html">Latest Stories</a>
+                        <a href="#">Archive</a>
+                        <a href="#">Podcast</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="about.html">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <a href="#">Instagram</a>
+                        <a href="#">TikTok</a>
+                        <a href="#">Twitter</a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 CarbonTide-News.org. All rights reserved.</p>
+                <p>&copy; 2025 TrendSnack. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
             </div>
         </div>
     </footer>
